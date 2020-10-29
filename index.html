@@ -1,0 +1,93 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotham Jail Dashboard</title>
+    <script src="./app.js" defer type="module"></script>
+
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <header class="headerContainer">
+        <div class="imageContainer">
+            <img src="./assets/img/logo.png" alt=""/>
+        </div>
+        <h1>Gotham Jail</h1>
+    </header>
+
+    <hr>
+
+    <div class="buttonsShow">
+        <button id="carceratiBtn"> Carcerati </button>
+        <button id="guardieBtn"> Guardie </button>
+    </div>
+    <hr>
+    <div style="text-align: center;">
+        <button class="boton" id="addDet" style="background-color:black; color:white; text-align: center; padding: 10px;">Aggiungi Detenuti</button>
+        <div id="addForm">
+            <span>Inserisci i dati del detenuto</span>
+            <form id="addDetenuto">
+                <label class="nome-l"bel for="nome">Nome</label>
+                <input id="nome" type="text">
+                <label for="razza">Razza</label>
+                <input id="razza" type="text">
+                <label for="altezza">Altezza</label>
+                <input id="altezza" type="text">
+                <label for="capelli">Colore Capelli</label>
+                <input id="capelli" type="text">
+                <label for="occhi">Colore Occhi</label>
+                <input id="occhi" type="text">
+                <label for="peso">Peso</label>
+                <input id="peso" type="text">
+                <label for="pericolo">Livello Pericolo</label>
+                <input id="pericolo" type="text">
+                <button id="salvaAdd" type="submit">Salva</button>
+            </form> 
+        </div>
+    </div>
+    <hr>
+    
+    <div id="mostraGua">
+        <div id="guardieContainer"></div>
+    </div>
+    
+    <div id="countCarcerati"></div> 
+    <div id="mostraDet">
+        <div id="carceratiContainer"></div>
+    </div>
+    
+
+    <template id="carcerati">
+        <div id="card">
+            <div id="textCard">
+                <p></p>
+                <h2></h2>
+                <strong></strong><br>
+                <span></span>
+                <ul id="deepInfo">
+                </ul>
+                <label></label>
+                <h4></h4>
+            </div>
+            <div id="buttonCard"> 
+                <!-- <button class="button" id="modBtn" type="button" >Modifica</button>
+                <button class="button" id="delBtn" type="button" >Elimina</button> -->
+            </div>
+        </div>
+    </template>
+    
+    <template id="guardie">
+        <div id="card">
+            <div id="textCard">
+                <h6></h6>
+                <strong></strong><br>
+                <span></span>
+                <h4></h4>
+            </div>
+            <!-- <button class="button" id="modBtn" type="button">Modifica</button>
+            <button class="button" id="delBtn" type="button">Elimina</button> -->
+        </div>
+    </template>
+</body>
+</html>

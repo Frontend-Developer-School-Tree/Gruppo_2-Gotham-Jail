@@ -1,0 +1,38 @@
+{
+    "guardia1":{
+        "nomeGuardia": "Carl",
+        "esperienza": "Guardia Senior",
+        "provenienza": "Cina",
+        "codiceIdentificativo": "A001"
+    },
+    "guardia2":{
+        "nomeGuardia": "Sempronio",
+        "esperienza": "Guardia Junior",
+        "provenienza": "Spagna",
+        "codiceIdentificativo": "A002"
+    },
+    "guardia3":{
+        "nomeGuardia": "Sasha",
+        "esperienza": "Guardia Apprendista",
+        "provenienza": "Albania",
+        "codiceIdentificativo": "A003"
+    },
+    "guardia4":{
+        "nomeGuardia": "Daniletto",
+        "esperienza": "Guardia Mid",
+        "provenienza": "Italia",
+        "codiceIdentificativo": "A004"
+    },
+    "guardia5":{
+        "nomeGuardia": "Franco",
+        "esperienza": "Guardia Senior",
+        "provenienza": "Portogallo",
+        "codiceIdentificativo": "A005"
+    },
+    "guardia6":{
+        "nomeGuardia": "Mike",
+        "esperienza": "Guardia Junior",
+        "provenienza": "Germania",
+        "codiceIdentificativo": "A006"
+    }
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@400;500&display=swap');
+
+body { 
+  font-family:'Roboto Slab';
+  background-color: #ffffff;
+}
+
+#addDet {
+  visibility: hidden;
+
+}
+
+.boton button{
+  background-color:black;
+  color:white;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  cursor: pointer;
+}
+
+.headerContainer{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imageContainer{
+    height: 150px; /* height of container */
+    overflow: hidden;
+    border: 1px solid rgb(100, 100, 100)
+}
+
+.headerContainer img{
+  width : 100%;
+  height : auto;
+}
+
+.headerContainer h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.buttonsShow{
+  text-align: center;
+  padding: 30px;
+}
+
+.buttonsShow button{
+  background-color:black;
+  color:white;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  cursor: pointer;
+}
+
+#addForm{
+  text-align: center;
+
+}
+
+#addDetenuto{
+  text-align: left;
+  width: 180px;
+}
+
+#addDetenuto input{
+  width: 100%;
+}
+
+
+.buttonShow button:hover{
+  background-color: #333;
+}
+
+
+
+/* login */
+.bglogin {  
+  background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/fog--mist/fog-in-the-treetops.jpg'); 
+  background-position:center left;
+  background-repeat:no-repeat;
+}
+.container-login { 
+  padding: 3%;
+  width: 350px;
+  margin: auto;
+  background: #fff;
+  margin-top: 5%;
+  border-radius: 10px;
+  /*box-shadow: 0px 0px 10px #000;
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  -o-box-shadow: 0px 0px 10px #000;*/
+  }
+
+.container-login .error { color:red; } 
+
+
+#formlogin { margin:auto; width:200px;}
+#formlogin label, input { display: block; text-align: center;}
+#formlogin input { margin-bottom:20px; padding:10px; margin-top:10px; width:178px;}
+#formlogin .button {
+  background-color:#000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block; 
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  font-family: 'Roboto Slab';
+  }
+
+
+#formlogin .button:hover {
+  background-color: #333;
+  }
+
+.intestazione h1, .intestazione h2  { text-align: center; font-weight: normal; margin:0;}
+
+.intestazione { margin-bottom:30px;}
+/* fine login */
+
+html body #carceratiContainer{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5rem;
+}
+
+html body #carceratiContainer #card {
+  background-color: #333;
+  border-radius: 2%;
+  padding: 30px;
+  height: 400px;
+  width: 250px;
+  flex-grow: 1;
+  color: white;
+  margin: 2rem .6rem;
+  display: block;
+  text-align:center;
+}
+
+
+html body #carceratiContainer #card #textCard h2 {
+  font-size: 2rem;
+}
+
+html body #carceratiContainer #card #textCard strong:before {
+  content:"Razza : ";
+}
+
+html body #carceratiContainer #card #textCard strong {
+  color: rgb(219, 219, 219);
+}
+
+html body #carceratiContainer #card #textCard h4:before {
+  content:"Livello pericolo : ";
+}
+
+html body #carceratiContainer #card #textCard h4{
+  color: rgb(219, 219, 219);
+}
+
+html body #carceratiContainer #card #textCard #deepInfo{
+  color: rgb(219, 219, 219);
+  list-style-type: circle;
+  text-align:left;
+  margin: 25px;
+}
+
+html body #card #buttonCard{
+  display: inline-block;
+  margin:0;
+}
+
+html body #card #modBtn{
+  display: inline-block;
+
+  background-color:#fff;
+  border: none;
+  color: rgb(34, 34, 34);
+  padding: 10px 22px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block; 
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Roboto Slab';
+}
+
+

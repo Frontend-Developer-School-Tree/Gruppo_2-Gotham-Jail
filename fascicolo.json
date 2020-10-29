@@ -1,0 +1,135 @@
+{
+    "Amazo":{
+        "id": "Z001",
+        "dataCarcerazione": 2013,
+        "dataScarcerazione": 2050,
+        "reatoCommesso": "Rubava il cibo agli orfani.",
+        "stato": "EVASO"
+    },
+    "Anti-Monitor":{
+        "id": "Z002",
+        "dataCarcerazione": 1992,
+        "dataScarcerazione": 2023,
+        "reatoCommesso": "Metteva la panna nella carbonara.",
+        "stato": "DETENUTO"
+    },
+    "Atlas":{
+        "id": "Z003",
+        "dataCarcerazione": 1534,
+        "dataScarcerazione": 3459,
+        "reatoCommesso": "Voleva chiacchierare appena sveglio.",
+        "stato": "MORTO"
+    },
+    "Bane":{
+        "id": "Z004",
+        "dataCarcerazione": 1534,
+        "dataScarcerazione": 3459,
+        "reatoCommesso": "Voleva chiacchierare appena sveglio.",
+        "stato": "DETENUTO"
+    },
+    "Big Barda":{
+        "id": "Z005",
+        "dataCarcerazione": 1845,
+        "dataScarcerazione": 2431,
+        "reatoCommesso": "Faceva la pipì senza alzare la tavoletta del wc.",
+        "stato": "DETENUTO"
+    },
+    "Black Adam":{
+        "id": "Z006",
+        "dataCarcerazione": 2311,
+        "dataScarcerazione": 4500,
+        "reatoCommesso": "Metteva l'ananas sulla pizza.",
+        "stato": "DETENUTO"
+    },
+    "Black Manta":{
+        "id": "Z007",
+        "dataCarcerazione": 1770,
+        "dataScarcerazione": 2030,
+        "reatoCommesso": "Aveva un tono della voce troppo alto.",
+        "stato": "EVASO"
+    },
+    "Brainiac":{
+        "id": "Z008",
+        "dataCarcerazione": 2020,
+        "dataScarcerazione": 3020,
+        "reatoCommesso": "Diceva che il COVID non esiste.",
+        "stato": "MORTO"
+    },
+    "Chameleon":{
+        "id": "Z009",
+        "dataCarcerazione": 1696,
+        "dataScarcerazione": 2022,
+        "reatoCommesso": "Non metteva il deodorante d'estate.",
+        "stato": "EVASO"
+    },
+    "Cheetah":{
+        "id": "Z010",
+        "dataCarcerazione": 2002,
+        "dataScarcerazione": 4635,
+        "reatoCommesso": "Rubava la borsetta alle vecchiette.",
+        "stato": "DETENUTO"
+    },
+    "Cheetah II":{
+        "id": "Z011",
+        "dataCarcerazione": 2010,
+        "dataScarcerazione": 4635,
+        "reatoCommesso": "Figlio di Cheetah: Rubava gli iPhone alle vecchiette.",
+        "stato": "DETENUTO"
+    },
+    "Cheetah III":{
+        "id": "Z012",
+        "dataCarcerazione": 2019,
+        "dataScarcerazione": 4635,
+        "reatoCommesso": "Nipote di Cheetah, figlio di Cheetah II: Rubava gli airPods alle vecchiette.",
+        "stato": "DETENUTO"
+    },
+    "Clock King":{
+        "id": "Z013",
+        "dataCarcerazione": 1827,
+        "dataScarcerazione": 2314,
+        "reatoCommesso": "Chiedeva sempre alla maestra di assegnare i compiti.",
+        "stato": "MORTO"
+    },
+    "Cyborg Superman":{
+        "id": "Z014",
+        "dataCarcerazione": 2000,
+        "dataScarcerazione": 2022,
+        "reatoCommesso": "Voleva organizzare il capodanno tre mesi prima.",
+        "stato": "EVASO"
+    },
+    "Darkseid":{
+        "id": "Z015",
+        "dataCarcerazione": 1888,
+        "dataScarcerazione": 2020,
+        "reatoCommesso": "Era antipatico forte.",
+        "stato": "EVASO"
+    },
+    "Deadshot":{
+        "id": "Z016",
+        "dataCarcerazione": 1220,
+        "dataScarcerazione": 4500,
+        "reatoCommesso": "Faceva le puzzette e dava la colpa agli altri.",
+        "stato": "EVASO"
+    },
+    "Doomsday":{
+        "id": "Z017",
+        "dataCarcerazione": 1999,
+        "dataScarcerazione": 2300,
+        "reatoCommesso": "Ha tentato di uccidere Barbara D'Urso.",
+        "stato": "DETENUTO"
+    },
+    "Faora":{
+        "id": "Z018",
+        "dataCarcerazione": 1287,
+        "dataScarcerazione": 8000,
+        "reatoCommesso": "Ha ucciso tutti quelli che le dicevano di essere grassa.",
+        "stato": "DETENUTO"
+    },
+    "General Zod":{
+        "id": "Z019",
+        "dataCarcerazione": 1400,
+        "dataScarcerazione": 2021,
+        "reatoCommesso": "Non rispettava mai la fila in posta.",
+        "stato": "DETENUTO"
+    }
+}
